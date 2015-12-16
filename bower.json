@@ -1,0 +1,23 @@
+{
+  "name": "text-vomit",
+  "description": "Markdown, with a few additional features",
+  "main": "",
+  "authors": [
+    "danieldulaney <dulaney.daniel@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8"
+  }
+}

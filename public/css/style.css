@@ -1,0 +1,46 @@
+body {
+	font-family: roboto, arial, sans-serif;
+	margin: 0;
+}
+
+#header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	background-color: slategray;
+}
+
+#header > ul {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	list-style-type: none;
+	flex-grow: 1;
+	align-self: flex-end;
+}
+
+#header > ul > li {
+	display: inline;
+	flex-grow: 0;
+	padding: .5em;
+	box-sizing: border-box;
+}
+
+#header > ul > li:hover {
+	
+}
+
+#header > h1 {
+	margin: .5em;
+	align-self: flex-start;
+}
+
+.steplink {
+	text-decoration: none;
+	color: inherit;
+}
